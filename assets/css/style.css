@@ -1,0 +1,23 @@
+:root {
+  --main-bg-gray: #333333;
+  --white-text: #F5F5F5;
+  --soft-blue: #b0d1ff;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  color: var(--white-text);
+  background-color: var(--main-bg-gray);
+  font-size: 1.6rem;
+  height: 100%;
+}
+.wrapper {
+  margin-inline: auto;
+  width: 90vw;
+  max-width: 130rem;
+}
+.wrapper__about {
+  max-width: 100rem;
+}

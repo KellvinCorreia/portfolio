@@ -1,0 +1,5 @@
+.about__links {
+  align-items: center;
+  display: flex;
+  color: var(--white-text);
+}
