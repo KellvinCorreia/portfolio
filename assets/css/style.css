@@ -21,3 +21,6 @@ body {
 .wrapper__about {
   max-width: 100rem;
 }
+.fa-brands {
+  font-size: 5rem;
+}

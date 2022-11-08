@@ -21,6 +21,11 @@
     <link rel="stylesheet" href="./assets/css/aboutArticle/about-article.css">
     <link rel="stylesheet" href="./assets/css/aboutArticle/about-article-title.css">
     <link rel="stylesheet" href="./assets/css/aboutArticle/about-article-text.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills-title.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills-list.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills-card.css">
+    <script src="https://kit.fontawesome.com/c65a312f1d.js" crossorigin="anonymous"></script>
   </head>
   <body class="">
     <header class="header wrapper">
@@ -59,51 +64,33 @@
           <h1 class="about__title">Olá, meu nome é Kellvin Correia Alves e sou desenvolvedor.</h1>
           <p class="about__text">Estou cursando Ciências da computação e atualmente estudando tecnologias web.</p>
           <ul class="about__links__list">
-            <li><a class="about__links" href="">Github <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_160_97)">
-              <path d="M7.05027 18.364L15.6558 9.75847V17.6639L17.6569 17.6569V6.34315H6.34316V8.33719L14.2415 8.34426L5.63605 16.9497L7.05027 18.364Z" fill="#464646"/>
-              </g>
-              <defs>
-              <clipPath id="clip0_160_97">
-              <rect width="24" height="24" fill="white"/>
-              </clipPath>
-              </defs>
-              </svg>
-              </a></li>
-            <li><a class="about__links" href="">Linkedin <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_160_97)">
-              <path d="M7.05027 18.364L15.6558 9.75847V17.6639L17.6569 17.6569V6.34315H6.34316V8.33719L14.2415 8.34426L5.63605 16.9497L7.05027 18.364Z" fill="#464646"/>
-              </g>
-              <defs>
-              <clipPath id="clip0_160_97">
-              <rect width="24" height="24" fill="white"/>
-              </clipPath>
-              </defs>
-              </svg>
-              </a></li>
-            <li><a class="about__links" href="">Curriculo <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_160_97)">
-              <path d="M7.05027 18.364L15.6558 9.75847V17.6639L17.6569 17.6569V6.34315H6.34316V8.33719L14.2415 8.34426L5.63605 16.9497L7.05027 18.364Z" fill="#464646"/>
-              </g>
-              <defs>
-              <clipPath id="clip0_160_97">
-              <rect width="24" height="24" fill="white"/>
-              </clipPath>
-              </defs>
-              </svg>
-              </a></li>
-            <li><a class="about__links" href="">kellvin.correia@gmail.com</a></li>
+            <li><a class="about__links" target="_blank" href="https://github.com/KellvinCorreia">Github <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            <li><a class="about__links" target="_blank" href="https://www.linkedin.com/in/kellvin-correia-alves/">Linkedin <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            <li><a class="about__links" target="_blank" href="#">Curriculo <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            <li><a class="about__links" data-email href="#">kellvin.correia@gmail.com <i class="fa-solid fa-link"></i> </a></li>
           </ul>
         </div>
       </article>
       <article class="about__article">
         <h1 class="about__article__title wrapper">Sobre mim</h1>
         <p class="about__article__text wrapper wrapper__about">Tenho 27 anos e adoro tecnologia, jogar com os amigos e aprender coisas novas na programação.</p>
-        <p class="about__article__text wrapper wrapper__about">Comecei meus estudos na faculdade onde me foi apresentado a linguagem C, depois conheci o JavaScript pela Rocketseat e gostei demais, os professores <strong>Mayk Brito</strong>-(Rocketseat) e <strong>Gustavo Guanabara</strong>-(Curso em vídeo) me ajudaram bastante no inicio e agora estou envolvido em alguns projetos de estudo na área de desenvolvimento web.</p>
+        <p class="about__article__text wrapper wrapper__about">Comecei meus estudos na faculdade onde me foi apresentado a linguagem C, depois conheci o JavaScript pela Rocketseat e gostei demais. Os professores <strong>Mayk Brito</strong>-(Rocketseat) e <strong>Gustavo Guanabara</strong>-(Curso em vídeo) me ajudaram bastante no início e agora estou envolvido em alguns projetos de estudo na área de desenvolvimento web.</p>
         <br>
         <p class="about__article__text wrapper wrapper__about"><a href="https://www.oracle.com/br/education/oracle-next-education/">Oracle Next Education (ONE) - Parceria da Oracle com a Alura</a></p>
         <p class="about__article__text wrapper wrapper__about"><a href="https://mais1code.com.br/">Reprogramando a Quebrada - Parceria da Mais1Code com o Instituto NU</a></p>
       </article>
+    </section>
+    <section class="skills wrapper">
+      <h1 class="skills__title">Habilidades</h1>
+      <div>
+        <ul class="skill__list">
+          <li class="skill__card"><i class="fa-brands fa-html5"></i>Html</li>
+          <li class="skill__card"><i class="fa-brands fa-css3"></i>Css</li>
+          <li class="skill__card"><i class="fa-brands fa-square-js"></i>JavaScript</li>
+          <li class="skill__card"><i class="fa-brands fa-git-alt"></i>Git</li>
+          <li class="skill__card"><i class="fa-brands fa-github"></i>Github</li>
+        </ul>
+      </div>
     </section>
   </body>
   <script src="./assets/js/main.js"></script>

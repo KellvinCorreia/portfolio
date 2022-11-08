@@ -2,4 +2,6 @@
   align-items: center;
   display: flex;
   color: var(--white-text);
+  gap: .5rem;
+  text-decoration: none;
 }

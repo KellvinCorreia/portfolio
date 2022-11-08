@@ -1,7 +1,6 @@
 .about__article {
   background-color: var(--soft-blue);
   color: var(--main-bg-gray);
-  margin-inline: auto;
   margin-top: 9.6rem;
-  height: 38rem;
+  padding: 2rem;
 }
