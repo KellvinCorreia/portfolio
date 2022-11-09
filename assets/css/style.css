@@ -1,7 +1,9 @@
 :root {
+  --midnight-blue: #2c3e50;
+  --amethyst: #9b59b6;
   --main-bg-gray: #333333;
   --white-text: #F5F5F5;
-  --soft-blue: #b0d1ff;
+  --soft-blue: #523981;
 }
 html {
   box-sizing: border-box;
@@ -9,18 +11,17 @@ html {
 }
 body {
   color: var(--white-text);
-  background-color: var(--main-bg-gray);
+  background-color: var(--midnight-blue);
   font-size: 1.6rem;
   height: 100%;
 }
 .wrapper {
   margin-inline: auto;
-  width: 90vw;
   max-width: 130rem;
 }
 .wrapper__about {
   max-width: 100rem;
 }
-.fa-brands {
-  font-size: 5rem;
+.icon {
+  font-size: 4.5rem;
 }
