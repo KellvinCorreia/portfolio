@@ -1,0 +1,14 @@
+.project__button__rep {
+  width: 9rem;
+  height: 4rem;
+  cursor: pointer;
+  background-color: var(--amethyst);
+  border: 1px solid var(--midnight-blue);
+  border-radius: 1rem;
+  color: var(--white-text)
+}
+
+.project__button__rep:hover {
+  zoom: 120%;
+  background-color: var(--soft-blue);
+}

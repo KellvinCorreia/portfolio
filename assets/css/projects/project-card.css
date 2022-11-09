@@ -1,6 +1,7 @@
 .project__card {
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
   gap: 1rem;
   border: 1px solid var(--amethyst);
   color: var(--main-bg-gray);

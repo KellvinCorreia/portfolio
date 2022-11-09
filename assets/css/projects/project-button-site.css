@@ -1,0 +1,14 @@
+.project__button__site {
+  width: 9rem;
+  height: 4rem;
+  cursor: pointer;
+  background-color: var(--midnight-blue);
+  border: 1px solid var(--amethyst);
+  border-radius: 1rem;
+  color: var(--white-text)
+}
+
+.project__button__site:hover {
+  zoom: 120%;
+  background-color: var(--soft-blue);
+}
