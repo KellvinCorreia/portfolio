@@ -5,8 +5,8 @@
   background-color: var(--white-text);
 }
 .project__img:nth-child(1) {
-  background-image: url(/assets/img/game_1.png);
+  background-image: url(../img/game_1.png);
 }
 .project__img:nth-child(2) {
-  background-image: url(/assets/img/decode1.png);
+  background-image: url(../img/decode1.png);
 }
