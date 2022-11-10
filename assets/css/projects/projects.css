@@ -1,10 +1,12 @@
 .projects {
-  padding: 5rem;
+  padding-block: 5rem;
+  width: 100%;
 }
 .buttons__project {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 3rem;
   width: 100%;
   max-height: 4rem;

@@ -5,6 +5,7 @@
   gap: 1rem;
   border: 1px solid var(--amethyst);
   color: var(--main-bg-gray);
-  width: 33%;
+  width: 90%;
+  max-width: 70rem;
   height: 25rem;
 }
