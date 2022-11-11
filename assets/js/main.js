@@ -20,7 +20,6 @@ if (screen.width < 768) {
   const menuClose = document.querySelector('.menu__close');
   const menuList = document.querySelector('.menu__list');
   const main = document.querySelector('main');
-  const footer = document.querySelector('footer');
 
   menuOpen.addEventListener('click', () => {
     menuList.classList.add('mobile');
