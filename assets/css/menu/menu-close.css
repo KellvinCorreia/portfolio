@@ -1,12 +1,12 @@
-.menu__open {
-  display: flex;
+.menu__close {
+  display: none;
   position: fixed;
   top: 1.5rem;
   right: 0;
 }
 
 @media (min-width: 768px) {
-  .menu__open {
+  .menu__close {
     display: none;
   }
 }

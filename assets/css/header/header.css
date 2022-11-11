@@ -4,5 +4,15 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  min-height: var(--header-height);
   height: fit-content;
+  margin-bottom: 5rem;
+}
+.scroll__header {
+  border-bottom: 1px solid var(--amethyst);
+  background: linear-gradient(var(--midnight-blue), var(--main-bg-gray));
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }

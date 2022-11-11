@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/header/header.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menu.css" />
     <link rel="stylesheet" href="./assets/css/menu/menu-list.css" />
     <link rel="stylesheet" href="./assets/css/menu/menu-link.css" />
-    <link rel="stylesheet" href="./assets/css/header/logo.css" />
     <link rel="stylesheet" href="./assets/css/menu/menu-open.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menu-close.css" />
+    <link rel="stylesheet" href="./assets/css/header/logo.css" />
     <link rel="stylesheet" href="./assets/css/about/about.css" />
     <link rel="stylesheet" href="./assets/css/about/about-img.css" />
     <link rel="stylesheet" href="./assets/css/about/about-title.css" />
@@ -19,9 +21,18 @@
     <link rel="stylesheet" href="./assets/css/about/about-links.css" />
     <link rel="stylesheet" href="./assets/css/about/about-links-list.css" />
     <link rel="stylesheet" href="./assets/css/aboutArticle/about-article.css" />
-    <link rel="stylesheet" href="./assets/css/aboutArticle/about-article-title.css" />
-    <link rel="stylesheet" href="./assets/css/aboutArticle/about-article-text.css" />
-    <link rel="stylesheet" href="./assets/css/aboutArticle/about-article-link.css">
+    <link
+      rel="stylesheet"
+      href="./assets/css/aboutArticle/about-article-title.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/aboutArticle/about-article-text.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/aboutArticle/about-article-link.css"
+    />
     <link rel="stylesheet" href="./assets/css/skills/skills.css" />
     <link rel="stylesheet" href="./assets/css/skills/skills-title.css" />
     <link rel="stylesheet" href="./assets/css/skills/skills-list.css" />
@@ -30,79 +41,101 @@
     <link rel="stylesheet" href="./assets/css/hobbies/hobbies-title.css" />
     <link rel="stylesheet" href="./assets/css/hobbies/hobbies-list.css" />
     <link rel="stylesheet" href="./assets/css/hobbies/hobbies-card.css" />
-    <link rel="stylesheet" href="./assets/css/courses/courses.css">
-    <link rel="stylesheet" href="./assets/css/courses/courses-title.css">
-    <link rel="stylesheet" href="./assets/css/courses/courses-list.css">
-    <link rel="stylesheet" href="./assets/css/courses/courses-card.css">
-    <link rel="stylesheet" href="./assets/css/projects/projects.css">
-    <link rel="stylesheet" href="./assets/css/projects/projects-title.css">
-    <link rel="stylesheet" href="./assets/css/projects/projects-list.css">
-    <link rel="stylesheet" href="./assets/css/projects/project-card.css">
-    <link rel="stylesheet" href="./assets/css/project-img.css">
-    <link rel="stylesheet" href="./assets/css/projects/project-button-site.css">
-    <link rel="stylesheet" href="./assets/css/projects/project-button-rep.css">
+    <link rel="stylesheet" href="./assets/css/courses/courses.css" />
+    <link rel="stylesheet" href="./assets/css/courses/courses-title.css" />
+    <link rel="stylesheet" href="./assets/css/courses/courses-list.css" />
+    <link rel="stylesheet" href="./assets/css/courses/courses-card.css" />
+    <link rel="stylesheet" href="./assets/css/projects/projects.css" />
+    <link rel="stylesheet" href="./assets/css/projects/projects-title.css" />
+    <link rel="stylesheet" href="./assets/css/projects/projects-list.css" />
+    <link rel="stylesheet" href="./assets/css/projects/project-card.css" />
+    <link rel="stylesheet" href="./assets/css/project-img.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/projects/project-button-site.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/projects/project-button-rep.css"
+    />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
 
-    <script src="https://kit.fontawesome.com/c65a312f1d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/c65a312f1d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="">
-    <header class="header wrapper">
-      <img
-        class="logo"
-        src="./assets/img/keyboard-removed-bg.png"
-        alt="Foto de Kellvin"
-      />
+    <header class="header">
       <nav class="menu">
-        <a class="menu__open" href="">
+        <a class="menu__open" href="#">
           <svg
-            width="40"
-            height="40"
+            width="55"
+            height="55"
             viewBox="0 0 40 40"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M10 20H30"
-              stroke="#00856F"
+              stroke="#ffffff"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
             ></path>
             <path
               d="M10 12H30"
-              stroke="#00856F"
+              stroke="#ffffff"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
             ></path>
             <path
               d="M18 28L30 28"
-              stroke="#00856F"
+              stroke="#ffffff"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
             ></path>
           </svg>
         </a>
+        <a class="menu__close" onclick="closeMenu()" href="#"
+          ><svg
+            width="55"
+            height="55"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30M10 10L30 30"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
         <ul class="menu__list">
           <li class="menu__item">
-            <a class="menu__link" href="#">Sobre mim</a>
+            <a class="menu__link" onclick="closeMenu()" href="#about">Sobre mim</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">Habilidades</a>
+            <a class="menu__link" onclick="closeMenu()" href="#skills">Habilidades</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">Passatempos</a>
+            <a class="menu__link" onclick="closeMenu()" href="#hobbies">Passatempos</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">Formação</a>
+            <a class="menu__link" onclick="closeMenu()" href="#courses">Formação</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">Projetos</a>
+            <a class="menu__link" onclick="closeMenu()" href="#projects">Projetos</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="">
       <section class="about__section">
         <article class="about wrapper">
           <img class="about__img" src="./assets/img/kellvin2.jpg" alt="" />
@@ -146,8 +179,8 @@
             </ul>
           </div>
         </article>
-        <article class="about__article">
-          <h1 class="about__article__title wrapper">Sobre mim</h1>
+        <article class="about__article" id="about">
+          <h1 class="about__article__title wrapper" >Sobre mim</h1>
           <p class="about__article__text wrapper wrapper__about">
             Tenho 27 anos e adoro tecnologia, jogar com os amigos e aprender
             coisas novas na programação.
@@ -162,7 +195,9 @@
           </p>
           <br />
           <p class="about__article__text wrapper wrapper__about">
-            <a class="about__article__link" href="https://www.oracle.com/br/education/oracle-next-education/"
+            <a
+              class="about__article__link"
+              href="https://www.oracle.com/br/education/oracle-next-education/"
               >Oracle Next Education (ONE) - Parceria da Oracle com a Alura</a
             >
           </p>
@@ -174,7 +209,7 @@
           </p>
         </article>
       </section>
-      <section class="skills wrapper">
+      <section class="skills wrapper" id="skills">
         <h1 class="skills__title">Habilidades</h1>
         <div>
           <ul class="skill__list">
@@ -196,7 +231,7 @@
           </ul>
         </div>
       </section>
-      <section class="hobbies wrapper">
+      <section class="hobbies wrapper" id="hobbies">
         <h1 class="hobbies__title">Passatempos</h1>
         <div>
           <ul class="hobbies__list">
@@ -215,47 +250,73 @@
           </ul>
         </div>
       </section>
-      <section class="courses">
+      <section class="courses" id="courses">
         <h1 class="courses__title">Formações e cursos</h1>
         <ul class="courses__list wrapper">
-          <li class="courses__card"><i class="fa-solid fa-graduation-cap icon"></i>Ciências da computação - FMU</li>
-          <li class="courses__card"><i class="fa-solid fa-display icon"></i>Front end - ONE</li>
-          <li class="courses__card"><i class="fa-solid fa-laptop-file icon"></i>Outros</li>
+          <li class="courses__card">
+            <i class="fa-solid fa-graduation-cap icon"></i>Ciências da
+            computação - FMU
+          </li>
+          <li class="courses__card">
+            <i class="fa-solid fa-display icon"></i>Front end - ONE
+          </li>
+          <li class="courses__card">
+            <i class="fa-solid fa-laptop-file icon"></i>Outros
+          </li>
         </ul>
       </section>
-      <section class="projects">
+      <section class="projects" id="projects">
         <h1 class="projects__title">Projetos</h1>
         <ul class="projects__list">
           <li class="project__card project__img">
             <div class="buttons__project">
-              <a target="_blank" href="https://kellvincorreia.github.io/Jogo-da-Forca-Oracle-Next-Education-Alura/"><button class="project__button__site">Site</button></a>
-              <a target="_blank" href="https://github.com/KellvinCorreia/Jogo-da-Forca-Oracle-Next-Education-Alura"><button class="project__button__rep">Repositório</button></a> 
+              <a
+                target="_blank"
+                href="https://kellvincorreia.github.io/Jogo-da-Forca-Oracle-Next-Education-Alura/"
+                ><button class="project__button__site">Site</button></a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/KellvinCorreia/Jogo-da-Forca-Oracle-Next-Education-Alura"
+                ><button class="project__button__rep">Repositório</button></a
+              >
             </div>
           </li>
           <li class="project__card project__img">
             <div class="buttons__project">
-              <a target="_blank" href="https://kellvincorreia.github.io/Decodificador-Oracle-Next-Education-Alura/"><button class="project__button__site">Site</button></a>
-              <a target="_blank" href="https://github.com/KellvinCorreia/Decodificador-Oracle-Next-Education-Alura"><button class="project__button__rep">Repositório</button></a> 
+              <a
+                target="_blank"
+                href="https://kellvincorreia.github.io/Decodificador-Oracle-Next-Education-Alura/"
+                ><button class="project__button__site">Site</button></a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/KellvinCorreia/Decodificador-Oracle-Next-Education-Alura"
+                ><button class="project__button__rep">Repositório</button></a
+              >
             </div>
           </li>
           <li class="project__card project__img">
-            <div class="buttons__project">
-              Em breve
-            </div>
+            <div class="buttons__project">Em breve</div>
           </li>
           <li class="project__card project__img">
-            <div class="buttons__project">
-              Em breve
-            </div>
+            <div class="buttons__project">Em breve</div>
           </li>
           <li class="project__card project__img">
-            <div class="buttons__project">
-              Em breve
-            </div>
+            <div class="buttons__project">Em breve</div>
           </li>
         </ul>
       </section>
     </main>
+    <footer class="footer">
+      <a href="https://www.linkedin.com/in/kellvin-correia-alves/">
+        <img
+          src="https://camo.githubusercontent.com/03447eeacd866e33ef123b94a6225912607e4c0da0577a40f13da53905633ae5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d626c75653f7374796c653d666c6174266c6f676f3d6c696e6b6564496e"
+          alt="logo do linkedin"
+        />
+      </a>
+      Feito com ❤️ por Kellvin.
+    </footer>
   </body>
   <script src="./assets/js/main.js"></script>
 </html>

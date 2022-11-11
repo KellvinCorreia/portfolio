@@ -2,3 +2,6 @@
   text-decoration: none;
   color: var(--white-text);
 }
+.menu__link:hover {
+  border-bottom: 1px solid var(--amethyst);
+}

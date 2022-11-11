@@ -1,4 +1,6 @@
 .courses {
   padding: 4rem;
   background-color: var(--soft-blue);
+  padding-top: var(--header-height);
+  
 }

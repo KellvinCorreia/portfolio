@@ -4,6 +4,8 @@
   --main-bg-gray: #333333;
   --white-text: #F5F5F5;
   --soft-blue: #523981;
+  
+  --header-height: 8rem;
 }
 html {
   box-sizing: border-box;
@@ -15,6 +17,12 @@ body {
   font-size: 1.6rem;
   height: 100%;
 }
+main {
+  margin-top: 8rem;
+}
+.hidden {
+  display: none;
+}
 .wrapper {
   margin-inline: auto;
   max-width: 130rem;
@@ -24,4 +32,7 @@ body {
 }
 .icon {
   font-size: 4.5rem;
+}
+body.menu-expanded > :not(nav) {
+  visibility: hidden;
 }

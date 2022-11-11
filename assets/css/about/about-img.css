@@ -1,4 +1,10 @@
 .about__img {
-  width: 25rem;
+  width: 18rem;
   border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .about__img {
+    width: 25rem;
+  }
 }

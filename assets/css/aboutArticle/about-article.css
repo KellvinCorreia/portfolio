@@ -3,5 +3,6 @@
   color: var(--white-text);
   margin-top: 9.6rem;
   padding: 2rem;
+  padding-top: var(--header-height);
   padding-bottom: 4rem;
 }
