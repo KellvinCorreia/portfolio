@@ -5,7 +5,9 @@
   background-color: var(--midnight-blue);
   border: 1px solid var(--amethyst);
   border-radius: 1rem;
-  color: var(--white-text)
+  color: var(--white-text);
+  font-family: var(--font);
+  font-weight: 700;
 }
 
 .project__button__site:hover {

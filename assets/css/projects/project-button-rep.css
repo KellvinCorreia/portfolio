@@ -2,13 +2,15 @@
   width: 9rem;
   height: 4rem;
   cursor: pointer;
-  background-color: var(--amethyst);
+  background-color: var(--soft-blue);
   border: 1px solid var(--midnight-blue);
   border-radius: 1rem;
-  color: var(--white-text)
+  color: var(--white-text);
+  font-family: var(--font);
+  font-weight: 700;
 }
 
 .project__button__rep:hover {
   zoom: 110%;
-  background-color: var(--soft-blue);
+  background-color: var(--amethyst);
 }

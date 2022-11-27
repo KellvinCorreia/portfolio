@@ -6,11 +6,12 @@
   --soft-blue: #523981;
   
   --header-height: 8rem;
+  --font: 'League Spartan', sans-serif;
 }
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: 'League Spartan', sans-serif;
+  font-family: var(--font);
 }
 body {
   color: var(--white-text);
