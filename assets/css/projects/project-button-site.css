@@ -9,6 +9,6 @@
 }
 
 .project__button__site:hover {
-  zoom: 120%;
+  zoom: 110%;
   background-color: var(--soft-blue);
 }
